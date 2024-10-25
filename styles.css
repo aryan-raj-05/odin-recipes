@@ -1,0 +1,47 @@
+* {
+    background-color: #eceff1e7;
+}
+
+.page {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.start-heading {
+    color: black;
+    font-style: normal;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.food-item:link,
+.food-item:visited {
+    display: block;
+    text-decoration: none;
+
+    color: #fff;
+    background-color: #5995da;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5d6063;
+    border-radius: 5px;
+
+    width: 200px;
+    margin: 20px auto;
+}
+
+.food-item:hover,
+.food-item:visited:hover {
+    color: #fff;
+    background-color: #76aeed;
+}
+
+.food-item:active, 
+.food-item:visited:active {
+    color: #fff;
+    background-color: #5995da;
+}
+
