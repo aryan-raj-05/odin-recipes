@@ -45,3 +45,48 @@
     background-color: #5995da;
 }
 
+.start-image {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: 30px auto;
+}
+
+.description {
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #aaaeb2;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.ingredients,
+.steps {
+    width: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #76aeed;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.ingredients h2 ,
+.ingredients ul,
+.ingredients li,
+.steps h2 ,
+.steps ol,
+.steps li {
+    background-color: #76aeed;
+}
+
+.ingredients h2,
+.steps h2 {
+    width: 100px;
+    margin: 0 auto;
+}
+
+ol {
+    padding-left: 40px;
+    padding-right: 40px;
+}
